@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.container {
+    background-color: darkgray;
+    border: 1px solid black;
+    padding: 20px;
+    width: 400px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px;
+}
+
+button {
+    padding: 10px;
+    background-color: darkolivegreen;
+    border: 1px;
+    border-radius: 7px;
+}
+
+.container_detalle{
+    display: flex;
+    gap: 20px;
+}
+
+.container_resumen{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.container_listados{
+    padding-left: 10px;
+    padding-top: 20px;
+    border: 10px;
+}
+
+.buttonErase {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
